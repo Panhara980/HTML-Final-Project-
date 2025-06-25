@@ -503,6 +503,10 @@ main {
             color: #e74c3c;
             margin-bottom: 2rem;
         }
+        .video {
+            width: 100%;
+            height: auto;
+        }
 
 /* --- RESPONSIVE DESIGN using Media Queries --- */
 @media (max-width: 992px) {
@@ -578,7 +582,6 @@ main {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
-    /* FONT SIZE FIX: Reducing font sizes for mobile devices */
     .hero h1 {
         font-size: 2.2rem;
     }
@@ -635,6 +638,11 @@ main {
             font-weight: bold;
             color: #e74c3c;
             margin-bottom: 2rem;
+        }
+        .video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
         }
      
 }
